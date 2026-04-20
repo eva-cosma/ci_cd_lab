@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/eva-cosma/ci_cd_lab:123
+          image: ghcr.io/eva-cosma/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
