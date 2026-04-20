@@ -11,8 +11,8 @@ import (
 )
 
 func main() {
-	log.Println("Starting setup... (simulating 9s delay)")
-	time.Sleep(9 * time.Second) // Simulated setup time
+	log.Println("Starting setup... (simulating 11s delay)")
+	time.Sleep(11 * time.Second) // Simulated setup time
 	log.Println("Setup complete. Starting server...")
 
 	mux := http.NewServeMux()
