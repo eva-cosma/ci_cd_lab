@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	log.Println("Starting setup... (simulating 10s delay)")
+	log.Println("Starting setup... (simulating 9s delay)")
 	time.Sleep(9 * time.Second) // Simulated setup time
 	log.Println("Setup complete. Starting server...")
 
